@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-ago-2022, 6:33:17
+    Author     : Armando
+*/
+body{
+    background-image: url("images/mosaico.png");
+}
+
+h2{
+    width: 1301px;
+    color: white;
+    background-image: url("images/cabecera.jpg");
+    font-size: 27px;
+    font-family: lobster;
+    padding: 30px;
+    margin: -20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.flechaImage{
+    margin: -5px;
+    margin-top: -420px;
+    text-align: right;
+}
+
+.campoSeleccion{
+    margin: 550px;
+    margin-top: 30px;
+    margin-bottom: 550px;
+}
+
+label{
+    margin: 20px;
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+    color: #665544;
+}
+
+legend{
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 90%;
+    width: 200px;
+    color: #665544;
+}
+
+fieldset{   
+    margin: -70px;
+    margin-top: 60px;
+    padding: 15px;
+    width: 320px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+select{
+    font-size: 14px;
+    margin: 900px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.radioButton{
+    margin: 500px;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    font-size: 16px;
+    text-align: left;
+}
+
+input{    
+    margin-left: 30px;
+}
+
+.formulario1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+table{
+    border-spacing: 0px;
+    margin: 300px;
+    margin-top: -980px;
+}
+
+th, td{
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    
+}
+
+th, td{
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;    
+}
+
+tr.head th{
+    color: #fff;
+    background-color: #90b4d6;  
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+
+th{
+    color: #333333;
+}
+
+td {
+    color: #666666;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even td, tr.even th {
+    background-color: #e8eff5;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+input.campo{
+    margin: 10px;
+    margin-left: -10px;
+    width: 200px;
+    border-bottom: 1px dotted #665544;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input:focus {
+    border: 1px dotted #dcdcdc;
+    outline: none;
+}
+
+input#submit {
+    color: white;
+    background-color: #665544;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+}
+
+input#submit:hover{
+    color: #665544;
+    background-color: white;
+    border: 1px inset;
+}
+
+.submit{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.botonSubmit{
+    margin: 950px;
+    margin-top: -328px;
+    margin-bottom: 120px;
+}
+
+input[type="submit"]{
+    border: 1px solid #006633;
+    background-color: #009966;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: #00CC33;
+    color: #ffffff;
+    cursor: pointer;
+}

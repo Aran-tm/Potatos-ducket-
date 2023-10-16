@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Encuesta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--
+          Esto que sigue es para utilizar un estilo de CSS externo          
+        -->
+        
+        <link href="css/encuesta.css" type="text/css" rel="stylesheet" />
+        <!-- Esto me permite colocar un icono en el title de la pagina--> 
+        <link rel="icon" href="css/images/papas.png" />
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body>
+
+        <h2>¿Cómo prefieres comer papa?</h2>
+        
+        <!-- 
+             Este es un form para poder
+             seleccionar tus gustos 
+             acerca de la elaboración de 
+             la papa
+        -->
+        <form action="home.html">
+            <div class="radioButton">
+                <input type="radio" name="tipo" value="papaHervida" />Hervida
+                <input type="radio" name="tipo" value="papaFrita" />Frita    
+                <input type="radio" name="tipo" value="papaRellena" />Rellena  
+            </div>    
+        </form>
+        <br />   
+        
+        <h2>¿Qué tipo de papa prefieres?</h2>
+        <div class="formulario1">
+        <form action="home.html">
+            <select>
+                <option value="papaGaleana">Papa Galeana</option>
+                <option value="papaCambray">Papa Cambray</option>
+                <option value="papaBlanca">Papa Blanca</option>
+                <option value="papaRussetBurbank">Papas Russet Burbank</option>
+            </select> 
+        </form>    
+        </div>
+        
+        
+        <table>
+            <tbody>
+                <tr class="head">
+                    <th></th>
+                    <th>Vitaminas que provee</th>
+                    <th>Color</th>
+                    <th>Sabor</th>
+                </tr>
+                <tr>
+                    <th>Papa Galeana</th>
+                    <td>C, B3, B6, B9</td>
+                    <td>Blanca</td>
+                    <td>Amargo</td>
+                </tr>
+                <tr class="even">
+                    <th>Papa Cambray</th>
+                    <td>C, B3, B6, B9</td>
+                    <td>Amarilla</td>
+                    <td>Salado</td>
+                </tr>
+                <tr>
+                    <th>Papa Blanca</th>
+                    <td>C, B3, B6, B9</td>
+                    <td>Roja</td>
+                    <td>Dulce</td>
+                </tr>
+                <tr class="even">
+                    <th>Papas Russet Burbank</th>
+                    <td>C, B3, B6, B9</td>
+                    <td>Blanca</td>
+                    <td>Ácida</td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+        <div class="botonSubmit">
+            <form action="index.html">
+        <input type="submit" value="Enviar Datos" />
+            </form>
+        </div>
+
+        <!-- 
+            Esto es para subscribirse
+            Los textos se escriben con Labels
+        -->
+        <h2>Escriba sus credenciales:</h2>
+      
+            <!-- el fieldset sirve para encerrar en un marco las cosas del Form-->
+            <div class="campoSeleccion">
+                <form action="index.html">
+                   
+        <fieldset> 
+            <legend>Detalles de Subscripción</legend>
+            
+            <label>Name:</label>
+            <input class="campo" type="text" name="nombre" required/>
+            <br/><br/>
+            
+            <!-- El atributo o valor required hace obligatorio la accion llenar el campo-->
+            <label>Email:</label>
+            <input class="campo" type="text" name="correo" required/>
+            <br/><br/>
+            
+            <div class="submit">
+            <input id="submit" type="submit" value="Subscribe" width="100" height="20"/>
+            </div>
+            <br/><br/><br/>
+        </fieldset>
+            
+                </form>
+            </div>            
+
+            <div class="flechaImage">
+                <a href="index.html"> <img src="images/atras.png" width="110" height="90"/></a>
+            </div>
+        
+    </body>
+</html>

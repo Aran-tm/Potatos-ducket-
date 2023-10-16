@@ -1,0 +1,318 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-ago-2022, 6:32:59
+    Author     : Armando
+*/
+
+body{
+    background-image: url("images/c.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.lista2{
+    font-family: Arial;
+    font-size: 22px;
+    padding: 5px;
+    margin: 30px;
+}
+
+li a:link{    
+    /* Esto es el codigo para quitar los links subrayados*/    
+    text-decoration: none;    
+    color: white;
+}
+
+/* 
+    Esto le da el color a los links
+    de un sitio que ya se visitó
+*/
+li a:visited{
+    color: white;
+}
+
+/* 
+    Esto actua como caja 
+    o BOX invisible
+*/
+/*  Este codigo se comenta para entender algunos conceptos
+.abc{    
+    //background-image: url("cabecera.jpg");
+    background-color: #b39d92;
+    width: 1361px;
+    height: 130px;
+    margin: -20px; 
+    margin-top: -50px; 
+        
+    position: fixed;
+    // esto permite fijar el header a la hora de bajar
+}
+*/
+
+h1{
+    font-family: Lobster;
+    text-shadow: 4px 2px 2px #88888888;
+    color: white; 
+    padding: 0px;
+    font-size: 40px;
+    position: fixed;
+    top: 3px;
+    bottom: 540px;
+    left: 490px;
+    text-shadow: 2px 5px 20px #09A7A1;
+}
+
+li{
+    margin: -100px;
+    line-height: 70px;
+    /*
+     tambien se puede poner de la forma: 
+     list-style: url(icon-plus.png) inside;
+     */
+}
+
+/* 
+    De esta forma puedo 
+    ponerle icono a cada LI
+    por separado */
+li.home{
+    list-style-image: url("images/icon-star.png");  
+    background-image: url("images/cabecera.jpg");
+    border-radius: 18px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-style:  ridge;
+}
+li.encuesta{
+    list-style-image: url("images/icon-star.png");  
+    background-image: url("images/cabecera.jpg");
+    border-radius: 18px;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-style:  ridge;
+}
+li.contact{
+    list-style-image: url("images/icon-star.png"); 
+    background-image: url("images/cabecera.jpg");
+    border-radius: 18px;
+    padding: 10px;
+    width: 110px;
+    text-align: center;
+    border-style:  ridge;
+}
+
+.home{
+    margin-top: 150px;
+}
+
+.encuesta{
+    margin-top: 10px;
+}
+
+.contact{
+    margin-top: 10px;
+}
+
+header{
+    background-image: url("images/cabecera.jpg");
+    width: 1361px;
+    height: 130px;
+    margin: -20px; 
+    margin-top: -50px;
+
+    position: fixed;
+    border-style:  ridge;
+}
+
+.footer1{
+    width: 1349px;
+    height: 260px;
+    margin: -8px;
+    margin-top: 380px;
+    margin-bottom: -330px;
+    background-image: url("images/cabecera.jpg");
+    text-indent: -9999px;
+}
+
+.footer2 p{
+    margin: -8px;
+    color: black;
+    margin-top: -40px;
+    margin-bottom: -1000px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: #09A7A1;
+    /*background-image: url("images/footer.jpg");*/
+}
+
+.imagen{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 110px;
+}
+
+li:hover{    
+    transform: scale3d(1.1, 1.1, 1.1);
+    color: #09A7A1;
+}
+
+li a:hover{  
+    color: #09A7A1;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color: steelblue;
+}
+
+.detalles{
+    margin: 80px;   
+    margin-top: -210px;
+    margin-bottom: 0px;  
+}
+
+label{
+    color: #09A7A1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 200px; 
+    font-size: 19px;
+    position: relative;
+    top: 100px;
+    width: 100px;
+    height: 30px;
+    text-shadow: 0px 0px 15px #09A7A1;  /* Esto da efecto de NEON*/
+}
+
+a{
+    text-decoration: underline;
+}
+
+.detalles a:hover{
+    color: steelblue;
+    text-decoration: underline;
+}
+
+section img#facebook{
+    position: relative;
+    top: 10px;
+    left: 280px;
+    width: 50px;
+    height: 50px;
+    /*margin: -100px 0px 0px 250px;*/
+}
+section img#twitter{
+    position: relative;
+    top: 10px;
+    left: 290px;
+    width: 50px;
+    height: 50px;
+    /*margin: -100px 0px 0px 250px;*/
+}
+section img#linkedin{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 300px;
+    /*margin: -100px 0px 0px 250px;*/
+}
+section img#github{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 309px;
+    /*margin: -100px 0px 0px 250px;*/
+}
+
+#youtube{
+    position: relative;
+    top: 105px;
+}
+
+figure img{
+    width: 150px;
+    height: 130px;
+    position: relative;
+    left: 685px;
+    top: -60px;
+}
+
+.contacto{
+    width: 170px;
+    height: 0px;
+    position: relative;
+    left: 910px;
+    top: -205px;
+}
+
+.contacto p{
+    color: white;
+}
+
+.logos{
+    width: 450px;
+    height: 30px;
+    position: relative;
+    top: -128px;
+    left: 56px;
+}
+
+.detalles a{
+    position: relative;
+    top: 105px;
+}
+
+#photoContact:hover{
+    cursor: pointer;
+}
+
+#penguin{
+    width: 150px; 
+    height: 150px;
+    position: fixed;
+    top: 5px;
+    left: 40px;
+
+    /* 
+        Esto de a continuacion 
+        me permite realizar una 
+        animacion en CSS
+    */
+    animation-name: penguin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  /* la animacion no acaba nunca*/
+}
+
+/* se encarga de darle la animacion al pinguino*/
+@keyframes penguin{
+    0%{
+        transform: skewX(15deg);
+    }
+    50%{
+        transform: skewX(0deg);
+    }
+    50%{
+        transform: skewX(-15deg);
+    }
+    100%{
+        transform: skewX(15deg);
+    }
+}

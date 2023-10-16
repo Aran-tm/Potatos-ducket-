@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-ago-2022, 6:32:16
+    Author     : Armando
+*/
+
+/* Asi se comenta algo en CSS 
+
+  Esto de a continuacion es para darle 
+  color, fondo de color, tamaño de letra, margen 
+  a las cabeceras H2 del html
+*/
+body{
+    background-image: url("images/mosaico.png");
+}
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: white;       
+    background-image: url("images/cabecera.jpg");    
+    
+    /* el font size tambien se puede escribir en puntos  pt*/
+    font-size: 27px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    margin: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -18px;
+    text-align: center;
+}
+
+/* font-size le da el tamaño a la letra */
+p{
+    margin: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+ol{
+    font-size: 18px;
+    margin-left: -650px;
+    margin-top: -320px;
+}
+
+.video{
+    margin: 20px;
+    margin-top: -80px;
+    margin-right: -640px;
+    text-align: center;
+}
+
+.fig{
+    padding: 10px;
+    margin: 120px;
+    margin-top: -75px;
+    font-style: italic;    
+}
+
+.flechaImage img{
+    width: 110px;
+    height: 100px;
+    margin: 1220px;    
+    text-align: right;
+    margin-top: -0px;
+    margin-bottom: -20px;
+}
+
+li{
+    padding: 5px;
+    text-align: center;
+}
+
+/* Los margenes hay que ponerlos en orden*/
+.sitio2{
+    margin: 100px;
+    margin-top: 1px;
+    font-style: oblique;
+    text-decoration: blink;
+}
+
+.sitio3{
+    margin-top: -5px;
+}
+
+.sitio3 label{
+    font-style: oblique;
+    margin: 920px;
+    text-align: center;
+    font-size: 19px;
+}
+
+h6{
+    width: 150px;
+    font-family: Times;
+    text-shadow: 1px 1px 1px;
+    color: #09A7A1;
+    margin: 250px;
+    margin-top: -500px;
+    font-size: 45px;
+    box-shadow: 5px 5px 5px #09A7A1;
+    border-radius: 40px;
+    padding: 10px
+}
+
+/* 
+    Esto a continuacion me permite 
+    modificar el texto, 
+    posicionandolos donde deseo
+*/
+
+.historia{
+    margin-top: -455px;
+    margin-bottom: 370px;
+    margin-left: 600px;
+    margin-right: -60px;
+}
+
+/*
+    Esto es una pseudo clase
+    Este, actúa como atributo de clase
+*/
+.history:first-letter{
+    font-size: 250%;
+    color: #09A7A1;
+}
+
+li{
+    margin-top: 5px;
+    color: black;
+}
+
+li a{
+    font-size: 16px;
+    font-style: italic;
+}
+
+p a{
+    font-size: 16px;
+    font-style: italic;
+}
+
+label a{
+    font-size: 16px;
+}
+
+a{
+    font-size: 16x;
+    font-family: Arial;   
+    text-shadow: 1px, 2px, 2px;
+    text-decoration: underline;
+    color: steelblue;
+}
+
+a:link{
+    color: rgb(15, 15, 15);
+}
+
+a:visited{    
+    color: rgb(15, 15, 15); 
+}
+
+a:hover{
+    color: #09A7A1
+}
+
+.history{    
+    padding: 12px;
+    margin-left: 100px;
+    overflow: scroll;
+    width: 490px;
+    height: 420px;
+    text-align: justify;   
+}
+
+.historia p{
+    margin-top: 0px;
+}
+
+p.history{
+    font-size: 19px;
+    margin-top: 30px;
+    border-width: thick;
+    border-style: solid;
+    border-color: white;  /* pone todo el borde de color blanco */
+    
+}
+
+body{
+    width: 1341px;
+    /* border-style: solid;
+    // border-color: red;  pone todo el borde de color rojo */
+}
+
+img{
+    margin: 5px;
+    width: 580px;
+    margin-top: 65px;    
+}
+figcaption{
+    margin-top: -350px;
+}
+
+.etiqueta2{
+    margin-top: -350px;
+}
+
+.Receta{
+    margin-top: -570px;
+    
+}
+
+.lista{
+    margin-top: 350px;
+}
